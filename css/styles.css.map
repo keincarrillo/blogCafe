@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/base/_font.scss","../sass/base/_reset.scss","../sass/abstracts/_font.scss","../sass/base/_labels.scss"],"names":[],"mappings":"AAAQ;ACER;EACI;EACA;EACA;EACA,aCLa;;;ADQjB;EACI;;;AERJ;EACI;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;;;AAGJ;EACI,aDlBW;;;ACqBf;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI","file":"styles.css"}

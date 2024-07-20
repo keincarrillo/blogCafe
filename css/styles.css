@@ -49,4 +49,40 @@ img {
   max-width: 100%;
 }
 
+header {
+  background: url(../../img/banner.jpg) no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  height: 60rem;
+}
+
+.slogan {
+  margin-top: 12rem;
+  padding: 1rem;
+}
+.slogan__title {
+  line-height: normal;
+}
+
+.menu {
+  list-style: none;
+  margin-bottom: 3rem;
+}
+.menu__title--span {
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    display: flex;
+    gap: 2rem;
+  }
+  .menu__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 1rem;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

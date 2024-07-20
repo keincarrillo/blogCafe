@@ -1,0 +1,22 @@
+.menu {
+    list-style: none;
+    margin-bottom: 3rem;
+    &__title {
+        &--span {
+            font-weight: 300; 
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .menu {
+        display: flex;
+        gap: 2rem;
+        &__nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            padding: 1rem;
+        }
+    }
+}

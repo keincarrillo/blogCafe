@@ -1,0 +1,8 @@
+@use '../abstracts/colors' as c;
+
+header {
+    background: url(../../img/banner.jpg) no-repeat center center/cover;
+    color: c.$white;
+    text-align: center;
+    height: 60rem;
+}

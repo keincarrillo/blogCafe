@@ -91,6 +91,17 @@ header {
     padding: 1rem;
   }
 }
+.container-primary {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .container-primary {
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4rem;
+  }
+}
 .banner__title {
   margin: 1rem 0;
 }

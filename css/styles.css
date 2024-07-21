@@ -91,5 +91,24 @@ header {
     padding: 1rem;
   }
 }
+.banner__title {
+  margin: 1rem 0;
+}
+.banner__item {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.btn-primary {
+  background-color: #000;
+  color: #fff;
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 2rem 0;
+  padding: 1rem 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 /*# sourceMappingURL=styles.css.map */

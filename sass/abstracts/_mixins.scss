@@ -1,0 +1,13 @@
+@use './colors' as c;
+
+.btn-primary {
+    background-color: c.$black;
+    color: c.$white;
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 2rem 0;
+    padding: 1rem 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}

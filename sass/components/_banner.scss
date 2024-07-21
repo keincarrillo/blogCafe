@@ -1,0 +1,11 @@
+@use '../abstracts/colors' as c;
+
+.banner {
+    &__title {
+        margin: 1rem 0;
+    }
+    &__item {
+        margin-bottom: 2rem;
+        border-bottom: 1px solid c.$gray;
+    }
+}

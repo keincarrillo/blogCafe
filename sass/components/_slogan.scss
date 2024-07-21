@@ -1,7 +1,8 @@
 .slogan {
-    margin-top: 12rem;
-    padding: 1rem;
     &__title {
         line-height: normal;
+    }
+    &__paragraph {
+        padding: 1rem;
     }
 }

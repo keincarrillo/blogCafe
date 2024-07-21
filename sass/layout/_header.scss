@@ -1,8 +1,17 @@
 @use '../abstracts/colors' as c;
 
 header {
+    align-items: stretch;
     background: url(../../img/banner.jpg) no-repeat center center/cover;
     color: c.$white;
-    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
     height: 60rem;
+    text-align: center;
+}
+
+@media (min-width: 768px){
+    header {
+        align-items: flex-start;
+    }
 }

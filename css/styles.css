@@ -50,18 +50,25 @@ img {
 }
 
 header {
+  align-items: stretch;
   background: url(../../img/banner.jpg) no-repeat center center/cover;
   color: #fff;
-  text-align: center;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
   height: 60rem;
+  text-align: center;
 }
 
-.slogan {
-  margin-top: 12rem;
-  padding: 1rem;
+@media (min-width: 768px) {
+  header {
+    align-items: flex-start;
+  }
 }
 .slogan__title {
   line-height: normal;
+}
+.slogan__paragraph {
+  padding: 1rem;
 }
 
 .menu {

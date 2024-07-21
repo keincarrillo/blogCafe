@@ -114,12 +114,51 @@ header {
   background-color: #000;
   color: #fff;
   display: block;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 700;
   margin: 2rem 0;
   padding: 1rem 3rem;
   text-align: center;
   text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .btn-primary {
+    display: inline-block;
+  }
+}
+
+.btn-secondary {
+  background-color: #784d3c;
+  color: #fff;
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 2rem 0;
+  padding: 1rem 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .btn-secondary {
+    display: inline-block;
+  }
+}
+
+.workshop__title {
+  font-size: 3rem;
+}
+.workshop__item {
+  border-bottom: 1px solid #e1e1e1;
+}
+.workshop__item__title {
+  font-size: 2.4rem;
+}
+.workshop__item__paragraph {
+  margin: 1rem 0;
+  font-size: 1.6rem;
+}
+.workshop__item__paragraph--span {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */

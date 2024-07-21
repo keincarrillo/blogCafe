@@ -1,0 +1,27 @@
+@use './colors' as c;
+
+@mixin btn{
+    color: c.$white;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 2rem 0;
+    padding: 1rem 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    @media (min-width: 768px) {
+        display: inline-block;
+    }
+}
+
+.btn-primary {
+    background-color: c.$black;
+    @include btn;
+    
+}
+
+.btn-secondary {
+    background-color: c.$primary;
+    @include btn;
+}
+

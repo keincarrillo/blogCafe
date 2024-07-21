@@ -72,8 +72,12 @@ header {
 }
 
 .menu {
+  text-align: center;
   list-style: none;
   margin-bottom: 3rem;
+}
+.menu__title {
+  text-align: center;
 }
 .menu__title--span {
   font-weight: 300;
@@ -159,6 +163,17 @@ header {
 }
 .workshop__item__paragraph--span {
   font-weight: bold;
+}
+
+footer {
+  height: 23vh;
+  background-color: #000;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  footer {
+    height: fit-content;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

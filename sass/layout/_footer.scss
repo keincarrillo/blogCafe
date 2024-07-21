@@ -1,0 +1,10 @@
+@use '../abstracts/colors' as c;
+
+footer {
+    height: 23vh;
+    background-color: c.$black;
+    color: c.$white;
+    @media (min-width: 768px) {
+        height: fit-content;
+    }
+}

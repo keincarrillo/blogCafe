@@ -191,4 +191,26 @@ footer {
   margin: 2rem 0;
 }
 
+.courses__title {
+  text-align: center;
+  margin: 1rem 0 4rem;
+}
+.courses__course {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 2rem;
+  margin-bottom: 2rem;
+}
+.courses__course__img-container__img {
+  max-width: 100%;
+}
+.courses__course__info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.courses__course__info span {
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=styles.css.map */

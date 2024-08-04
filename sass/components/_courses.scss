@@ -1,0 +1,25 @@
+.courses {
+    &__title {
+        text-align: center;
+        margin: 1rem 0 4rem;
+    }
+    &__course {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+        margin-bottom: 2rem;
+        &__img-container {
+            &__img {
+                max-width: 100%;
+            }
+        }
+        &__info {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            & span {
+                font-weight: bold;
+            }
+        }
+    }
+}

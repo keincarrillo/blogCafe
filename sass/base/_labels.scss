@@ -1,4 +1,5 @@
 @use '../abstracts/font' as f;
+@use '../abstracts/colors' as c;
 
 body {
     font-size: 1.6rem;
@@ -13,6 +14,7 @@ body {
 
 a {
     text-decoration: none;
+    color: c.$white;
 }
 
 h1, h2, h3, h4 {

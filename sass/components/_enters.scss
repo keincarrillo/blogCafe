@@ -1,0 +1,12 @@
+.enters {
+    text-align: center;
+    &__enter {
+        padding: 1rem 0;
+        &__info {
+            text-align: left;
+            & p {
+                margin: 1rem 0;
+            }
+        }
+    }
+}

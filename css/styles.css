@@ -213,4 +213,17 @@ footer {
   font-weight: bold;
 }
 
+.enters {
+  text-align: center;
+}
+.enters__enter {
+  padding: 1rem 0;
+}
+.enters__enter__info {
+  text-align: left;
+}
+.enters__enter__info p {
+  margin: 1rem 0;
+}
+
 /*# sourceMappingURL=styles.css.map */

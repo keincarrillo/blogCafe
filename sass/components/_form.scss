@@ -1,0 +1,24 @@
+@use '../abstracts/colors' as c;
+
+.form {
+    background-color: c.$white;
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+    &__camp {
+        gap: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        &__label {
+            flex: 0 0 9rem;
+            text-align: right;
+        }
+        &__field {
+            flex: 1;
+            border: 1px solid c.$gray;
+            &--textarea {
+                height: 20rem;
+            }
+        }
+    }
+}

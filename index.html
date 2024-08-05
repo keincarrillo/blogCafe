@@ -6,6 +6,11 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
     <title>blogCafe</title>
+    <!-- PREFETCH -->
+    <link rel="prefetch" href="./our.html" as="Document" />
+    <link rel="prefetch" href="./contact.html" as="Document" />
+    <link rel="prefetch" href="./courses.html" as="Document" />
+    <link rel="prefetch" href="./enter.html" as="Document" />
   </head>
   <body>
     <header>
@@ -18,7 +23,7 @@
         </h1>
         <ul class="menu">
           <li class="menu__item"><a href="./our.html">Nosotros</a></li>
-          <li class="menu__item"><a href="#">Contacto</a></li>
+          <li class="menu__item"><a href="./contact.html">Contacto</a></li>
           <li class="menu__item"><a href="./courses.html">Cursos</a></li>
         </ul>
       </div>
@@ -36,11 +41,15 @@
         <section class="banner">
           <h3 class="banner__title">Nuestro Blog</h3>
           <div class="banner__item">
-            <img
-              src="./img/blog1.webp"
-              alt="banner1"
-              class="banner__item__img"
-            />
+            <picture>
+              <source srcset="./img/blog1.webp" type="image/webp" />
+              <img
+                loading="lazy"
+                src="./img/blog1.jpg"
+                alt="banner1"
+                class="banner__item__img"
+              />
+            </picture>
             <h4>Tipos de grano de café</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
@@ -52,11 +61,15 @@
             <a href="./enter.html" class="btn-primary">Leer Entrada</a>
           </div>
           <div class="banner__item">
-            <img
-              src="./img/blog2.webp"
-              alt="banner1"
-              class="banner__item__img"
-            />
+            <picture>
+              <source srcset="./img/blog2.webp" type="image/webp" />
+              <img
+                loading="lazy"
+                src="./img/blog2.jpg"
+                alt="banner1"
+                class="banner__item__img"
+              />
+            </picture>
             <h4>Tipos de grano de café</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
@@ -68,11 +81,15 @@
             <a href="./enter.html" class="btn-primary">Leer Entrada</a>
           </div>
           <div class="banner__item">
-            <img
-              src="./img/blog3.webp"
-              alt="banner1"
-              class="banner__item__img"
-            />
+            <picture>
+              <source srcset="./img/blog3.webp" type="image/webp" />
+              <img
+                loading="lazy"
+                src="./img/blog3.jpg"
+                alt="banner1"
+                class="banner__item__img"
+              />
+            </picture>
             <h4>Tipos de grano de café</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi

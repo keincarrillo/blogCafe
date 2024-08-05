@@ -33,27 +33,41 @@
     </header>
     <main>
       <div class="container">
-        <div class="info">
-          <h3>Sobre Nosotros</h3>
-          <div class="info__container">
-            <img src="./img/nosotros.jpg" alt="nosotros" />
-            <div class="info__container__paragraph">
-              <p class="info__paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-                quis ipsum error sit nam sed, libero, excepturi, odit quasi
-                asperiores cupiditate vel voluptates veniam? Voluptates
-                inventore totam quas impedit quidem?
-              </p>
-              <p class="info__paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                quibusdam quae eos aliquid eveniet nihil reiciendis impedit
-                cumque laboriosam molestias? Accusamus corporis, ipsum modi quos
-                fuga in exercitationem sunt adipisci eum cupiditate minima
-                fugiat laborum, non, voluptatum dolore quas maiores.
-              </p>
-            </div>
+        <h3>Contacto</h3>
+        <div class="contact"></div>
+        <form action="" class="form">
+          <div class="form__camp">
+            <label for="nombre" class="form__camp__label">Nombre</label>
+            <input
+              type="text"
+              name=""
+              id="nombre"
+              placeholder="Tu Nombre"
+              class="form__camp__field"
+            />
           </div>
-        </div>
+          <div class="form__camp">
+            <label for="email" class="form__camp__label">E-mail</label>
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="Tu E-Mail"
+              class="form__camp__field"
+            />
+          </div>
+          <div class="form__camp">
+            <label for="mensaje" class="form__camp__label">Mensaje</label>
+            <textarea
+              name=""
+              id="mensaje"
+              class="form__camp__field form__camp__field--textarea"
+            ></textarea>
+          </div>
+          <div class="form__camp">
+            <input type="submit" value="Enviar" class="btn-primary" />
+          </div>
+        </form>
       </div>
     </main>
     <footer>
